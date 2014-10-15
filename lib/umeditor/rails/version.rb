@@ -1,5 +1,6 @@
 module Umeditor
   module Rails
-    VERSION = "0.0.1"
+    VERSION = "1.0.0"
+    UMEDITOR_VERSION = "1.2.2"
   end
 end

@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'umeditor/rails/version'
+require "umeditor/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "umeditor-rails"
   spec.version       = Umeditor::Rails::VERSION
-  spec.authors       = ["Stephen Xu"]
-  spec.email         = ["wexu@expedia.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["wlon"]
+  spec.email         = ["xu.wlon@gmail.com"]
+  spec.summary       = %q{Seamlessly integrates Umeditor into the Rails asset pipeline introduced in Rails 4.}
+  spec.description   = %q{Rails asset pipeline integration for Umeditor.}
+  spec.homepage      = "https://github.com/wlon/umeditor-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

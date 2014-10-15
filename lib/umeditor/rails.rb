@@ -1,7 +1,7 @@
-require "umeditor/rails/version"
-
 module Umeditor
   module Rails
-    # Your code goes here...
+    require 'umeditor/rails/engine'
+    require 'umeditor/rails/version'    
   end
 end
+
