@@ -1,13 +1,12 @@
-# Umeditor::Rails
-
-TODO: Write a gem description
+# BaiduUmeditorRails
+Seamlessly integrates Umeditor into the Rails asset pipeline introduced in Rails 4
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'umeditor-rails'
+gem 'baidu_umeditor_rails'
 ```
 
 And then execute:
@@ -16,15 +15,16 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install umeditor-rails
+    $ gem install baidu_umeditor_rails
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+UM.getEditor('rich_comment', toolbar: [ 'link unlink | image emotion'], UMEDITOR_HOME_URL: "/assets/umeditor/", initialFrameHeight:150)
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/umeditor-rails/fork )
+1. Fork it ( https://github.com/[my-github-username]/baidu_umeditor_rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
