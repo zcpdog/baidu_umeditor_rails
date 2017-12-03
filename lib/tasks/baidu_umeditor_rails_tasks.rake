@@ -11,5 +11,5 @@ Rake::Task[assets_task].enhance do
   target   = File.join(Rails.public_path, config.assets.prefix)
   manifest = config.assets.manifest
 
-  BaiduUeditorRails::AssetInstaller.new(target, manifest).install
+  BaiduUmeditorRails::AssetInstaller.new(target, manifest).install
 end
