@@ -1,6 +1,6 @@
 require "baidu_umeditor_rails/asset_manifest"
 
-module BaiduUeditorRails
+module BaiduUmeditorRails
   class AssetInstaller
     ASSETS = Pathname.new(File.expand_path(File.dirname(__FILE__) + "/../../vendor/assets/javascripts/umeditor"))
 
