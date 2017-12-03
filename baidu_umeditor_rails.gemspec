@@ -6,8 +6,8 @@ require "baidu_umeditor_rails/version"
 Gem::Specification.new do |spec|
   spec.name          = "baidu_umeditor_rails"
   spec.version       = BaiduUmeditorRails::VERSION
-  spec.authors       = ["wlon"]
-  spec.email         = ["xu.wlon@gmail.com"]
+  spec.authors       = ["Chuanpin Zhu"]
+  spec.email         = ["zcppku@gmail.com"]
   spec.summary       = %q{Seamlessly integrates Umeditor into the Rails asset pipeline introduced in Rails 4.}
   spec.description   = %q{Rails asset pipeline integration for Umeditor.}
   spec.homepage      = "https://github.com/zcpdog/baidu_umeditor_rails"
